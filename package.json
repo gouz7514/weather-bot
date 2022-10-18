@@ -1,0 +1,25 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouz7514/weather-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouz7514/weather-bot/issues"
+  },
+  "homepage": "https://github.com/gouz7514/weather-bot#readme",
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "node-schedule": "^2.1.0",
+    "weather-js": "^2.0.0"
+  }
+}
